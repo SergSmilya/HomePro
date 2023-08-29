@@ -1,0 +1,31 @@
+.header {
+    background-color: var(--bgd-color-hero);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    height: 56px;
+}
+
+.header__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    color: var(--secondary-text-color);
+}
+
+.header__logo svg {
+    width: 32px;
+    height: 32px;
+    fill: skyblue;
+}
+
+.header__button svg {
+    outline: 1px solid red;
+    width: 24px;
+    height: 24px;
+}
